@@ -1,0 +1,49 @@
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px;
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.header-left {
+    margin-left: 25px;
+}
+
+.header-right {
+    margin-right: 25px;
+    list-style: none;
+}
+
+.header-right li a {
+    padding: 10px;
+}
+
+.Picture-container {
+    background-color: black;
+    width: 50vw;
+    height: 40vw;
+}
+
+.Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture img{
+    border-radius: 100000px;
+    height: 35vw;
+    width: 35vw;
+}
