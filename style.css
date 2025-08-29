@@ -30,20 +30,33 @@ body {
     padding: 10px;
 }
 
-.Picture-container {
-    background-color: black;
-    width: 50vw;
-    height: 40vw;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.Picture {
+.left-content {
+    width: 50%;
+    height: 40vw;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Picture img{
-    border-radius: 100000px;
-    height: 35vw;
-    width: 35vw;
+.left-content img{
+    border-radius: 100%;
+    width: 60%;
+    height: 75%;
+}
+
+.right-content {
+    background-color: white;
+    width: 50%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
